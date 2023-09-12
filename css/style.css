@@ -171,11 +171,12 @@ li {
         transform:rotate(360deg);
     }
   }
-.aboutSection { 
-    text-align: center ;
-    background-color: rgb(87, 78, 78);
-}
 
+ .contactSection { 
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+  }
 img { 
     
     margin-top: 10px;
