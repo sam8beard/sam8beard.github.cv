@@ -93,6 +93,12 @@ a:hover {
     color: royalblue;
 }
 
+@keyframes { 
+
+
+} 
+
+
 
 .card {
     
@@ -104,13 +110,14 @@ a:hover {
     /*grid-template-columns: 1fr 1fr 1fr;*/
     justify-content: center;
     border-radius: 50px;
+   
   }
   
   
   
   .card:hover {
     box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
- 
+    animation: cardAnimation 1s infinite;
   }
   
 li { 
@@ -154,6 +161,17 @@ li {
     font-size: small;
     font-family: 'Kanit', sans-serif;
   }
+
+  @keyframes cardAnimation { 
+
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+
 
 img { 
     
